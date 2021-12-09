@@ -1,0 +1,53 @@
+body {
+	display: grid;
+	place-items: center;
+  height: 700px;
+  width: 1440px;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card-container {
+  width: 330px;
+  height: 575px;
+  border-radius: 1rem;
+  background-color: hsl(216, 50%, 16%);
+  display: grid;
+	place-items: center;
+}
+
+.card-background-container {
+  width: 90%;
+  height: 80%;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  background-color: hsl(215, 32%, 27%);
+  border-radius: 1rem;
+}
+
+
+.card article {
+  margin: 5%;
+}
+.card {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 60% 10% 10% 10% 10%;
+  place-content: center;
+  height: 100%;
+  width: 90%;
+  margin: 5%;
+  background-color: blueviolet;
+  position: relative;
+  border-radius: 0.5rem;
+  top: -10%;
+}
+.equilibrium {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.price-time-card{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
